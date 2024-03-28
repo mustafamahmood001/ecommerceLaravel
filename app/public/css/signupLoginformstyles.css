@@ -1,0 +1,131 @@
+.SIGNupForm {
+    width: 100%;
+    height: 587px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container select,
+.form-container button {
+    width: calc(100% - 20px);
+    margin-bottom: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.checkbox-container label {
+    margin-right: 16px;
+}
+
+.text-danger {
+    display: block;
+    color: #dc3545;
+    margin-top: 4px;
+}
+
+.policy-line,
+.account-link {
+    height: 1px;
+    background-color: #ccc;
+    margin: 16px 0;
+}
+
+/* Add media query for smaller screens if needed */
+@media (max-width: 768px) {
+    .form-container input,
+    .form-container select,
+    .form-container button {
+        width: 100%;
+    }
+}
+.text-danger{
+    font-size: 11px;
+}
+.submitButton{
+    width: 19%;
+    margin-top: 21%;
+    margin-left: 11%;
+}
+.Login{
+    height:514px;
+    background-color: aliceblue;
+
+}
+.loginForm{
+    margin-top: 7%;
+    margin-left: 5%;
+    
+
+}
+body{
+    overflow: hidden;
+}
+.form-container{
+    margin-left: 36%;
+}
+label {
+    font-weight: bold;
+}
+.signUpHeading{
+    margin-left: -21%;
+}
+.MainContent{
+    border: solid 2px black;
+    width: 100%;
+    height: 675px;
+    margin-top: 1%;
+}
+.ProfileInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.ProfilePic {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%;
+    margin-right: 20px; /* Adjust spacing between picture and user details */
+}
+
+.UserInfo {
+    text-align: left;
+}
+
+.UserName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.UserInfo {
+    text-align: left;
+}
+.Userdetailsform{
+    margin-left: -13%;
+}
